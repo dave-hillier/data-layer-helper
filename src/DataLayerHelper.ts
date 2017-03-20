@@ -28,7 +28,7 @@
  * @author bkuhn@google.com (Brian Kuhn)
  */
 
-import * as plain from './is_plain_object'
+import * as plain from './plain'
 
 if (!Array.isArray) { // TODO: <IE9
   Array.isArray = function(arg:any): arg is any[] {
