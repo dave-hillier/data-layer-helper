@@ -1,15 +1,32 @@
 {
-  "name": "data-layer-helper",
-  "version": "0.1.0",
+  "name": "data-layer-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-qunit": "~0.2.2",
-    "grunt-contrib-watch": "~0.4.4",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-closure-tools": "~0.8.3",
-    "grunt-closure-linter": "~0.1.0"
+    "@types/jasmine": "^2.5.46",
+    "browserify": "^14.1.0",
+    "browserify-istanbul": "^2.0.0",
+    "jasmine": "^2.5.3",
+    "karma": "^1.5.0",
+    "karma-browserify": "^5.1.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-typescript": "^2.1.7",
+    "mocha": "^3.2.0",
+    "tsify": "^3.0.1",
+    "typescript": "^2.2.1",
+    "uglify-js": "^2.8.13",
+    "watchify": "^3.9.0"
   }
 }

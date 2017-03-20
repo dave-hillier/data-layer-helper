@@ -63,3 +63,6 @@ scratch/
 build-out/
 build-gen/
 build-bin/
+
+coverage/
+dist/

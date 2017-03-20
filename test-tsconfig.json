@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "built",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "module": "CommonJS",
+    "target": "ES5",
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "lib": ["es5", "es2015", "dom"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
